@@ -25,13 +25,13 @@ int binarySearch(int arr[], int i, int r, int x) {
 int main() {
    //Di dalam fungsi main, buat array (arr) dengan nilai {2, 4, 6, 8, 10}.
    int arr[] = {2, 4, 6, 8, 10};
-   int size = 5;
+   int elm = 5;
 
    //Tentukan elemen yang dicari x dengan nilai 6.
    int x = 6;
 
    //Panggil fungsi binarySearch dengan parameter arr, 0, n - 1, dan x, dan simpan hasilnya di variabel result.
-   int result = binarySearch(arr, 0, size - 1, x);
+   int result = binarySearch(arr, 0, elm - 1, x);
 
    //Jika result sama dengan -1, cetak "Elemen tidak ditemukan" ke layar.
    (result == -1) ? cout << "Elemen tidak ditemukan"
